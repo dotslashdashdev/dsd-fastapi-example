@@ -15,6 +15,9 @@ class GlobalSettings(BaseSettings):
 
     PROJECT_NAME: str = "dsd-fastapi-example"
     API_V1_STR: str = "/example/api/v1"
+    DATABASE_NAME: str = "example"
+    DATABASE_USER: str = "sample_user"
+    DATABASE_PASSWORD: str = "SamP!2U5er"
 
     class Config:
         case_sensitive = True
