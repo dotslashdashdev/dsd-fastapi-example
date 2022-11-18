@@ -39,3 +39,11 @@ $ poetry shell
 $ cd src
 $ python main.py
 ```
+
+## 제출 전 필수 사항
+
+제공 된 `formatting.sh` 파일의 실행을 통해 코드 포맷팅을 진행 후 제출 바랍니다.
+
+```
+$ sh formatting.sh
+```
