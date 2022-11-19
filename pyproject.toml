@@ -2,7 +2,7 @@
 name = "dsd-fastapi-example"
 version = "0.1.0"
 description = ""
-authors = ["Eunwoo Cho <ewcho@dotslashdash.com>"]
+authors = ["Eunwoo Cho <ewcho@dotslashdash.com>", "JinWooHyun <primadonna@dotslashdash.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
@@ -10,11 +10,12 @@ fastapi = "^0.85.0"
 SQLAlchemy = "^1.4.44"
 PyMySQL = "^1.0.2"
 cryptography = "^38.0.3"
+uvicorn = {extras = ["standard"], version = "^0.19.0"}
+
+[tool.poetry.dev-dependencies]
 black = "^22.10.0"
 isort = "^5.10.1"
 autoflake = "^1.7.7"
-
-[tool.poetry.dev-dependencies]
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
